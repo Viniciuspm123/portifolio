@@ -33,21 +33,20 @@
         <h2 class="form-title">Entre em Contato</h2>
         <p class="contact-intro">Dúvidas, sugestões, propostas  ou oportunidades? Fale comigo!</p>
 
-        <form action="https://formsubmit.co/vinic123pm@gmail.com" method="POST">
-            <input type="text" name="nome" placeholder="Seu nome" required>
-            <input type="email" name="email" placeholder="Seu e-mail" required>
-            <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+<form action="https://formsubmit.co/vinic123pm@gmail.com" method="POST">
+    <!-- Redireciona para sua página de obrigado -->
+    <input type="hidden" name="_next" value="https://viniciuspm123.github.io/portifolio/obrigado.html">
 
-            <!-- Configurações extras -->
-            <input type="hidden" name="_next" value="https://viniciuspm123.github.io/portifolio/obrigado.html">
-<<<<<<< HEAD
+    <!-- Desativa o captcha obrigatório -->
+    <input type="hidden" name="_captcha" value="false">
 
-=======
->>>>>>> ec06a5e4cefb3c96916629bf7032e67f5414b9f4
-            <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="nome" placeholder="Seu nome" required>
+    <input type="email" name="email" placeholder="Seu email" required>
+    <textarea name="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
 
-            <button type="submit">Enviar</button>
-        </form>
+    <button type="submit">Enviar Mensagem</button>
+</form>
+
     </section>
 
     <!-- RODAPÉ -->
